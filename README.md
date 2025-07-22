@@ -1,7 +1,31 @@
-# D-A_Minimarket_Backend
+# 📦 Sistema de Gestión de Almacén Logístico
 
-#Usamos la Base de datos de Mysql
-#Datos para probarlo:
+Este proyecto es una solución integral para la **gestión de almacenes y logística** desarrollada con **Spring Boot (Java)** y **Angular 19**. Se implementa como una **API RESTful** siguiendo la arquitectura **Modelo-Vista-Controlador (MVC)**, permitiendo una administración eficiente de productos, pedidos, cotizaciones, despachos, usuarios y más.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+### Backend (API REST)
+- **Java 21**
+- **Spring Boot**
+  - Spring Web
+  - Spring Data JPA
+- **MySQL** (Base de datos relacional)
+- **Rational Rose** (Modelado UML previo al desarrollo)
+- Arquitectura **MVC** escalable
+
+### Frontend
+- **Angular 19**
+- **HTML5, CSS3**
+- **Bootstrap** (estilos y componentes responsive)
+
+---
+
+## 🧪 Datos de prueba (MySQL)
+
+```sql
+
 NSERT INTO rol(id_rol, nombre, descripcion) VALUES
 ('1', 'Administrador', 'Acceso total al sistema'),
 ('2', 'Logistica', 'Acceso a logística y almacén'),
@@ -205,10 +229,4 @@ INSERT INTO detalle_despacho (id_detalle_despacho, cantidad, cod_producto, cod_d
 (28, 5, 2, 14),
 (29, 18, 1, 15),
 (30, 9, 2, 15);
-
-#Es un sistemas de Gestion de almacen Logistico
-
-#Hecho en SpringBoot (Java) junto con Angular (19) es APIREST 
-#SE uso JPA-SpringWeb
-#Arquitectura Modelo vista controllador (escalable a media)
-#Se uso el rational Rose para modelar antes el proyecto
+-- 
